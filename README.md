@@ -4,7 +4,7 @@ pycrawler.py [-h] [-t THREADS] url [wordlist_filename]
 
 positional arguments:
 <br/>url &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;Target url to crawl 
-<br/>wordlist_filename &nbsp; Wordlist file to use, default is wordlist.txt
+<br/>wordlist_filename &nbsp; Wordlist file to use, default is svndigger_all.txt
 
 optional arguments:
 <br/>-h, --help &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; show this help message and exit
