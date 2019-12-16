@@ -42,8 +42,8 @@ def bruteforce_dirs(word_queue, url):
 				res = requests.get(target)
 
 				if res.status_code == 200:
-					if "Rejected" not in res.text and "logged" not in res.text:
-						print("FOUND: {}".format(target))
+                                    if "input" in res.text:
+                                        print("FOUND {}".format(target))
 			except KeyboardInterrupt:
 				print("Exiting...")
 				sys.exit()
